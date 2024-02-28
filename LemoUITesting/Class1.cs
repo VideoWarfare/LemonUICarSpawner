@@ -6,15 +6,15 @@ using GTA.Math; // For Vector3 and possibly other math related classes
 using LemonUI; // Base namespace for LemonUI functionalities
 using LemonUI.Menus; // For menu functionalities
 
-namespace Default_ScriptHook_Template
+namespace Lemon_UI_Car_Spawner_Example
 {
-    public class Default_ScriptHook_Template : Script
+    public class Lemon_UI_Car_Spawner_Example : Script
     {
         readonly ObjectPool pool = new ObjectPool();
         NativeMenu menu = new NativeMenu("LS Flight Sim", "Duty menu", "Welcome pilot!");
         NativeItem spawnDubsta = new NativeItem("Spawn Dubsta");
 
-        public Default_ScriptHook_Template()
+        public Lemon_UI_Car_Spawner_Example()
         {
             Tick += OnTick;
             Aborted += OnAbort;
@@ -68,6 +68,8 @@ namespace Default_ScriptHook_Template
 
             // Optionally, set the player as the driver of the Dubsta
             Game.Player.Character.SetIntoVehicle(dubsta, VehicleSeat.Driver);
+
+            
         }
     }
 }
