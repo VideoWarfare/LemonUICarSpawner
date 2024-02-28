@@ -13,15 +13,9 @@ Before using the script, ensure you have the following installed:
 - ScriptHookVDotNet
 - LemonUI
 
-## Installation
-
-1. Confirm all prerequisites are installed.
-2. Download `Lemon_UI_Car_Spawner_Example.cs`.
-3. Place the script file into the `scripts` folder within your GTA V directory.
-
 ## Usage
 
-Once installed, use the following key to interact with the script:
+Once built and installed, use the following key to interact with the script:
 
 - Press `J` to open the in-game menu. From there, you can select the "Spawn Dubsta" option.
 
